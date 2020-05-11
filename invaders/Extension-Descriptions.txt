@@ -1,0 +1,36 @@
+YOUR NAME(S) AND NETID(S) HERE: ABBY PHAM (vp237)
+				SOYEE PARK (sp798)
+DATE COMPLETED HERE: MAY 6,2019
+
+List of extensions: 
+
+1. Background Image:
+
+a) During STATE_INACTIVE and STATE_PAUSED: The background is implemented as a GImage object. The original image is taken from the website below:
+https://www.shutterstock.com/es/video/clip-18681329-space-background-camera-flying-through-blue-magenta
+
+b) During STATE_ACTIVE: Black background implemented as a GRectangle object.
+
+c) During STATE_COMPLETE:
+	-If player wins: The background is implemented as a GImage object. The original image is taken from the website below:
+	https://www.tunefind.com/movie/guardians-of-the-galaxy-2014
+	-If player loses: The background is implemented as a GImage object. The original image is taken from the website below:
+	https://pngtree.com/freebackground/flame-background-cosmic-explosion_246611.html
+
+2. Background Sounds: 
+
+The sounds are implemented when the ship shoots the bolts, when the aliens shoot the bolts, when the ship is destroyed, and when the aliens are destroyed. The sounds
+are taken from the Sounds folder provided in the original zip. file and music is taken from the website:
+https://www.newgrounds.com/audio/listen/857484
+
+3. Dynamically Speeding Up The Aliens:
+
+The alien's speed is increased (ALIEN_SPEED*0.9) every time an alien is killed. This can be checked on Powershell where we print the alien's marching speed.
+
+4. Keeping Track Of Scores:
+
+The score for each alien at the bottommost row is 100 and is increased by 100 for every row that is above.
+
+5. Keeping Track Of Lives:
+
+The lives of the ship are also kept track of on the right corner.
